@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang=":enabled">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Arsath Resume</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    body{
+        font-family:'Arial',sans-sewrif;
+        line-height:1.6;
+        background-color:#0c010146;
+        color:#333;
+        padding:20px;
+    }
+    .container{
+        max-width:900px;
+        margin:0 auto;
+        background:#0f0101;
+        padding:20px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+    .header{
+        text-align:center;
+        padding:20px;
+        backgroud-colour:#4CAF50;
+        color:White;
+    }
+    .header h1 {
+        font-size:36px;
+        font-weight:bold;
+    }
+    .header h3 {
+        font-size:20px;
+        margin-bottom:10px;
+        font-style:italic;
+    }
+    .contact-info{
+        text-align:center;
+        margin-bottom:20px;
+    }
+    .contact-info{
+        margin:5px;
+    }
+    .section-title{
+        font-size:24px;
+        color:#4CAF50;
+        border-bottom:2px solid #4CAF50;
+        padding-bottom:5px;
+        margin-bottom:10px;
+    }
+    .experince-item, .education{
+        margin-bottom:20px;
+    }
+    .experince-item, .education-item{
+        margin-bottom:15px;
+    }
+    .experince-item h4, .education-item h4{
+        font-size:18px;
+        color: #333;
+        margin-bottom:5px;
+    }
+    .experince-item p, .education-item p{
+        margin:5px 0;
+    }
+    .skills{
+        margin-bottom:20px;
+    }
+    .skills-list{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .skills-list li{
+        background-color:#4CAF50;
+        color:white;
+        padding:5px 10px;
+        margin:5px;
+        border-radius:5px;
+        list-style:none;
+    }
+    .footer{
+        text-align:center;
+        padding:10px;
+        background
+        -color:#4CAF50;
+        color:white;
+        position:relative;
+        bottom:0;
+    }
+    @media(max-width:768px){
+        .skills-list{
+            flex-direction:column;
+            align-items:center;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="pic.jpg" alt="college picture">
+            <h1>Arsath Ahamed N</h1>
+            <h3>software developer</h3>
+    </div>
+    <div class="contact-info">
+            <p>EmaIL:arsathahamed@karunya.edu.in | phone:+91123456789</p>
+            <p>location: karunya city | linkedin: arsath </p>
+    </div>
+    <div class="experience">
+        <div class="section-title">Experience</div>
+        <div class="experience-item">
+            <h4>software engineer - XYZ company</h4>
+            <p>nov 2024 - present</p>
+            <p> well in programming</p>
+    </div>
+    <div class="experience-item">
+        <h4>software engineer - XYZ tech</h4>
+        <p>nov 2022 - apr 2023</p>
+        <p>worked on front end development</p>
+    </div>
+    </div>
+    <div class="education">
+        <div class="section-title">Education</div>
+        <div class="education-item">
+            <h4>software engineer - XYZ company</h4>
+            <p>university</p>
+            <p> engineering  cse</p>
+    </div>
+    </div>
+    <div class="skills">
+        <div class="section-title">Skills</div>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+    </div>
+    </div>
+    <div class="footer">
+    <p>&copy:2024 Arsath Ahamed N | all rights reserved</p>
+</div>
+</body>
+</html>
+
+    
+
+
